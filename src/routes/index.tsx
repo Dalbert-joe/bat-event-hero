@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import heroVideo from "@/assets/hero-bg.mp4.asset.json";
 import logo from "@/assets/strata26-logo.png.asset.json";
+import batButton from "@/assets/bat-button.png.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
